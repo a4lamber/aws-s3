@@ -1,0 +1,15 @@
+# course references
+reference/*
+
+# ignoring ad-hoc credentials
+adam_credentials.csv
+CLI_accesskey.txt
+
+# ignoring raw data
+rawdata/
+
+toy_scripts/
+
+# ignoring .venv
+.venv/
+.DS_store
