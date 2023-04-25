@@ -4,25 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-from find_csvs import find_csvs
+from utils.helpers import find_csvs,get_indexes
 
-def get_indexes(series,thresh):
-    """
-    get the indexes of the series where it is greater
-    than certain values.
-    Args:
-        thresh (_type_): _description_
-        series (_type_): _description_
-
-    Returns:
-        _type_: _description_
-    """
-    mask = series > thresh
-    return np.where(mask)[0].tolist()
 
 
 def get_files_with_null(files,thresh):
-
     output = []
 
     for file in files:
@@ -40,7 +26,7 @@ def get_files_with_null(files,thresh):
     return output
 
 # read csv files
-csv_files = find_csvs("./rawdata")
+csv_files = find_csvs("../rawdata")
 # find files with null rate higher than a certain value
 problem_files = get_files_with_null(csv_files,0.8)
 
@@ -49,7 +35,7 @@ for file in problem_files:
     print(file)
 
 
-name = input("Automatically modify the files?")
+name = input("Automatically modify the files? ")
 
 if name == "y":
     """

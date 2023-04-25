@@ -1,5 +1,5 @@
 import pathlib
-
+import numpy as np
 
 def find_csvs(data_direcotry):
     """
@@ -25,3 +25,18 @@ def find_csvs(data_direcotry):
     # # convert from POSIX to str
     files = [str(file) for file in files]
     return files
+
+
+def get_indexes(series,cutoff):
+    """
+    Used for filtering rows with null rate higher than the cutoff and
+    return the indexes.
+    Args:
+        series (_type_): _description_
+        cutoff (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    mask = series > cutoff
+    return np.where(mask)[0].tolist()
