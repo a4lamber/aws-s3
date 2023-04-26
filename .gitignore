@@ -5,8 +5,9 @@ reference/*
 adam_credentials.csv
 CLI_accesskey.txt
 
-# ignoring raw data
+# ignoring data
 rawdata/
+basic_filtered_data/
 
 toy_scripts/
 
