@@ -10,6 +10,8 @@ rawdata/
 basic_filtered_data/
 
 toy_scripts/
+# ignoring schema proposed by json
+schema/*
 
 # ignoring .venv
 .venv/
