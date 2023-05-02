@@ -1,6 +1,7 @@
 import pathlib
 import numpy as np
 
+
 def find_csvs(data_direcotry):
     """
     find every .csv and .csv.gz file in the directory and return it
@@ -18,7 +19,7 @@ def find_csvs(data_direcotry):
     gz_files = list(path.rglob('*.csv.gz'))
 
     csv_files = list(path.rglob('*.csv'))
-    
+
     # # merge two list
     files = csv_files + gz_files
 
@@ -27,7 +28,7 @@ def find_csvs(data_direcotry):
     return files
 
 
-def get_indexes(series,cutoff):
+def get_indexes(series, cutoff):
     """
     Used for filtering rows with null rate higher than the cutoff and
     return the indexes.
