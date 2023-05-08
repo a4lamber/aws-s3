@@ -3,7 +3,6 @@
 - [Understanding Mimics](#understanding-mimics)
   - [Mimic III](#mimic-iii)
   - [Some useful tools](#some-useful-tools)
-  - [some tools to get ERD tool for DDL](#some-tools-to-get-erd-tool-for-ddl)
 - [Reference](#reference)
 
 
@@ -22,7 +21,7 @@ The input data for these two systems are shown in here
 
 ## Some useful tools
 some tools to get ERD tool for DDL
-- 
+- d
 
 # Reference
 - [Github MIT Lab for Computational Physiology ](https://github.com/MIT-LCP/mimic-code)
