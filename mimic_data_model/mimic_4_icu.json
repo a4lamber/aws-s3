@@ -10,7 +10,8 @@
     "itemid": "datetime",
     "value": "datetime",
     "valueuom": "string",
-    "warning": "int"
+    "warning": "int",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/datetimeevents.csv.gz"
   },
   "ingredientevents.csv": {
     "Unnamed: 0": "int",
@@ -30,7 +31,8 @@
     "linkorderid": "int",
     "statusdescription": "string",
     "originalamount": "int",
-    "originalrate": "float"
+    "originalrate": "float",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/ingredientevents.csv.gz"
   },
   "inputevents.csv": {
     "Unnamed: 0": "int",
@@ -59,7 +61,8 @@
     "continueinnextdept": "int",
     "statusdescription": "string",
     "originalamount": "float",
-    "originalrate": "float"
+    "originalrate": "float",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/inputevents.csv.gz"
   },
   "procedureevents.csv": {
     "Unnamed: 0": "int",
@@ -84,7 +87,8 @@
     "continueinnextdept": "int",
     "statusdescription": "string",
     "ORIGINALAMOUNT": "float",
-    "ORIGINALRATE": "int"
+    "ORIGINALRATE": "int",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/procedureevents.csv.gz"
   },
   "d_items.csv": {
     "Unnamed: 0": "int",
@@ -96,7 +100,8 @@
     "unitname": "string",
     "param_type": "string",
     "lownormalvalue": "int",
-    "highnormalvalue": "float"
+    "highnormalvalue": "float",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/d_items.csv.gz"
   },
   "chartevents.csv": {
     "Unnamed: 0": "int",
@@ -110,7 +115,8 @@
     "value": "string",
     "valuenum": "float",
     "valueuom": "string",
-    "warning": "int"
+    "warning": "int",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/chartevents.csv.gz"
   },
   "icustays.csv": {
     "Unnamed: 0": "int",
@@ -121,7 +127,8 @@
     "last_careunit": "string",
     "intime": "datetime",
     "outtime": "datetime",
-    "los": "float"
+    "los": "float",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/icustays.csv.gz"
   },
   "outputevents.csv": {
     "Unnamed: 0": "int",
@@ -133,6 +140,7 @@
     "storetime": "datetime",
     "itemid": "datetime",
     "value": "int",
-    "valueuom": "string"
+    "valueuom": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-demo/2.2/icu/outputevents.csv.gz"
   }
 }

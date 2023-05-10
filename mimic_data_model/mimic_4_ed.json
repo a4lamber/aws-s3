@@ -1,1 +1,79 @@
-{"diagnosis.csv": {"Unnamed: 0": "int", "subject_id": "int", "stay_id": "int", "seq_num": "int", "icd_code": "string", "icd_version": "int", "icd_title": "string"}, "medrecon.csv": {"Unnamed: 0": "int", "subject_id": "int", "stay_id": "int", "charttime": "datetime", "name": "string", "gsn": "int", "ndc": "int", "etc_rn": "int", "etccode": "int", "etcdescription": "string"}, "vitalsign.csv": {"Unnamed: 0": "int", "subject_id": "int", "stay_id": "int", "charttime": "datetime", "temperature": "float", "heartrate": "int", "resprate": "int", "o2sat": "int", "sbp": "int", "dbp": "int", "rhythm": "string", "pain": "string"}, "triage.csv": {"Unnamed: 0": "int", "subject_id": "int", "stay_id": "int", "temperature": "float", "heartrate": "int", "resprate": "int", "o2sat": "int", "sbp": "int", "dbp": "int", "pain": "string", "acuity": "int", "chiefcomplaint": "string"}, "edstays.csv": {"Unnamed: 0": "int", "subject_id": "int", "hadm_id": "int", "stay_id": "int", "intime": "datetime", "outtime": "datetime", "gender": "string", "race": "string", "arrival_transport": "string", "disposition": "string"}, "pyxis.csv": {"Unnamed: 0": "int", "subject_id": "int", "stay_id": "int", "charttime": "datetime", "med_rn": "int", "name": "string", "gsn_rn": "int", "gsn": "int"}}
+{
+  "diagnosis.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "stay_id": "int",
+    "seq_num": "int",
+    "icd_code": "string",
+    "icd_version": "int",
+    "icd_title": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/diagnosis.csv.gz"
+  },
+  "medrecon.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "stay_id": "int",
+    "charttime": "datetime",
+    "name": "string",
+    "gsn": "int",
+    "ndc": "int",
+    "etc_rn": "int",
+    "etccode": "int",
+    "etcdescription": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/medrecon.csv.gz"
+  },
+  "vitalsign.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "stay_id": "int",
+    "charttime": "datetime",
+    "temperature": "float",
+    "heartrate": "int",
+    "resprate": "int",
+    "o2sat": "int",
+    "sbp": "int",
+    "dbp": "int",
+    "rhythm": "string",
+    "pain": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/vitalsign.csv.gz"
+  },
+  "triage.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "stay_id": "int",
+    "temperature": "float",
+    "heartrate": "int",
+    "resprate": "int",
+    "o2sat": "int",
+    "sbp": "int",
+    "dbp": "int",
+    "pain": "string",
+    "acuity": "int",
+    "chiefcomplaint": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/triage.csv.gz"
+  },
+  "edstays.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "hadm_id": "int",
+    "stay_id": "int",
+    "intime": "datetime",
+    "outtime": "datetime",
+    "gender": "string",
+    "race": "string",
+    "arrival_transport": "string",
+    "disposition": "string",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/edstays.csv.gz"
+  },
+  "pyxis.csv": {
+    "Unnamed: 0": "int",
+    "subject_id": "int",
+    "stay_id": "int",
+    "charttime": "datetime",
+    "med_rn": "int",
+    "name": "string",
+    "gsn_rn": "int",
+    "gsn": "int",
+    "filepath": "../basic_filtered_data/mimic-iv-ed-demo/2.2/ed/pyxis.csv.gz"
+  }
+}

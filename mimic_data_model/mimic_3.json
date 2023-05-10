@@ -25,7 +25,8 @@
     "statusdescription": "string",
     "comments_editedby": "string",
     "comments_canceledby": "string",
-    "comments_date": "datetime"
+    "comments_date": "datetime",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/PROCEDUREEVENTS_MV.csv"
   },
   "CALLOUT": {
     "Unnamed: 0": "int",
@@ -52,7 +53,8 @@
     "acknowledgetime": "datetime",
     "outcometime": "datetime",
     "firstreservationtime": "datetime",
-    "currentreservationtime": "datetime"
+    "currentreservationtime": "datetime",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/CALLOUT.csv"
   },
   "D_CPT": {
     "Unnamed: 0": "int",
@@ -64,7 +66,8 @@
     "subsectionheader": "string",
     "codesuffix": "string",
     "mincodeinsubsection": "int",
-    "maxcodeinsubsection": "int"
+    "maxcodeinsubsection": "int",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/D_CPT.csv"
   },
   "D_ITEMS": {
     "Unnamed: 0": "int",
@@ -77,14 +80,16 @@
     "category": "string",
     "unitname": "string",
     "param_type": "string",
-    "conceptid": null
+    "conceptid": null,
+    "filepath": "../basic_filtered_data/mimic-iii-demo/D_ITEMS.csv"
   },
   "CAREGIVERS": {
     "Unnamed: 0": "int",
     "row_id": "int",
     "cgid": "int",
     "label": "string",
-    "description": "string"
+    "description": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/CAREGIVERS.csv"
   },
   "MICROBIOLOGYEVENTS": {
     "Unnamed: 0": "int",
@@ -103,7 +108,8 @@
     "dilution_text": "string",
     "dilution_comparison": "string",
     "dilution_value": "int",
-    "interpretation": "string"
+    "interpretation": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/MICROBIOLOGYEVENTS.csv"
   },
   "LABEVENTS": {
     "Unnamed: 0": "int",
@@ -115,7 +121,8 @@
     "value": "string",
     "valuenum": "float",
     "valueuom": "string",
-    "flag": "string"
+    "flag": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/LABEVENTS.csv"
   },
   "INPUTEVENTS_CV": {
     "Unnamed: 0": "int",
@@ -140,7 +147,8 @@
     "originalroute": "string",
     "originalrate": "float",
     "originalrateuom": "string",
-    "originalsite": "string"
+    "originalsite": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/INPUTEVENTS_CV.csv"
   },
   "ADMISSIONS": {
     "Unnamed: 0": "int",
@@ -162,7 +170,8 @@
     "edouttime": "datetime",
     "diagnosis": "string",
     "hospital_expire_flag": "int",
-    "has_chartevents_data": "int"
+    "has_chartevents_data": "int",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/ADMISSIONS.csv"
   },
   "D_LABITEMS": {
     "Unnamed: 0": "int",
@@ -171,7 +180,8 @@
     "label": "string",
     "fluid": "string",
     "category": "string",
-    "loinc_code": "string"
+    "loinc_code": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/D_LABITEMS.csv"
   },
   "DATETIMEEVENTS": {
     "Unnamed: 0": "int",
@@ -188,7 +198,8 @@
     "warning": "int",
     "error": "int",
     "resultstatus": null,
-    "stopped": "string"
+    "stopped": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/DATETIMEEVENTS.csv"
   },
   "PRESCRIPTIONS": {
     "Unnamed: 0": "int",
@@ -210,7 +221,8 @@
     "dose_unit_rx": "string",
     "form_val_disp": "string",
     "form_unit_disp": "string",
-    "route": "string"
+    "route": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/PRESCRIPTIONS.csv"
   },
   "PROCEDURES_ICD": {
     "Unnamed: 0": "int",
@@ -218,7 +230,8 @@
     "subject_id": "int",
     "hadm_id": "int",
     "seq_num": "int",
-    "icd9_code": "int"
+    "icd9_code": "int",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/PROCEDURES_ICD.csv"
   },
   "CHARTEVENTS": {
     "Unnamed: 0": "int",
@@ -236,7 +249,8 @@
     "warning": "int",
     "error": "int",
     "resultstatus": "string",
-    "stopped": "string"
+    "stopped": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/CHARTEVENTS.csv"
   },
   "TRANSFERS": {
     "Unnamed: 0": "int",
@@ -252,7 +266,8 @@
     "curr_wardid": "int",
     "intime": "datetime",
     "outtime": "datetime",
-    "los": "float"
+    "los": "float",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/TRANSFERS.csv"
   },
   "DIAGNOSES_ICD": {
     "Unnamed: 0": "int",
@@ -260,7 +275,8 @@
     "subject_id": "int",
     "hadm_id": "int",
     "seq_num": "int",
-    "icd9_code": "string"
+    "icd9_code": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/DIAGNOSES_ICD.csv"
   },
   "SERVICES": {
     "Unnamed: 0": "int",
@@ -269,7 +285,8 @@
     "hadm_id": "int",
     "transfertime": "datetime",
     "prev_service": "string",
-    "curr_service": "string"
+    "curr_service": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/SERVICES.csv"
   },
   "DRGCODES": {
     "Unnamed: 0": "int",
@@ -280,7 +297,8 @@
     "drg_code": "int",
     "description": "string",
     "drg_severity": "int",
-    "drg_mortality": "int"
+    "drg_mortality": "int",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/DRGCODES.csv"
   },
   "OUTPUTEVENTS": {
     "Unnamed: 0": "int",
@@ -296,7 +314,8 @@
     "cgid": "int",
     "stopped": null,
     "newbottle": null,
-    "iserror": null
+    "iserror": null,
+    "filepath": "../basic_filtered_data/mimic-iii-demo/OUTPUTEVENTS.csv"
   },
   "PATIENTS": {
     "Unnamed: 0": "int",
@@ -307,14 +326,16 @@
     "dod": "datetime",
     "dod_hosp": "datetime",
     "dod_ssn": "datetime",
-    "expire_flag": "int"
+    "expire_flag": "int",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/PATIENTS.csv"
   },
   "D_ICD_DIAGNOSES": {
     "Unnamed: 0": "int",
     "row_id": "int",
     "icd9_code": "string",
     "short_title": "string",
-    "long_title": "string"
+    "long_title": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/D_ICD_DIAGNOSES.csv"
   },
   "ICUSTAYS": {
     "Unnamed: 0": "int",
@@ -329,7 +350,8 @@
     "last_wardid": "int",
     "intime": "datetime",
     "outtime": "datetime",
-    "los": "float"
+    "los": "float",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/ICUSTAYS.csv"
   },
   "INPUTEVENTS_MV": {
     "Unnamed: 0": "int",
@@ -363,14 +385,16 @@
     "comments_canceledby": "string",
     "comments_date": "datetime",
     "originalamount": "float",
-    "originalrate": "float"
+    "originalrate": "float",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/INPUTEVENTS_MV.csv"
   },
   "D_ICD_PROCEDURES": {
     "Unnamed: 0": "int",
     "row_id": "int",
     "icd9_code": "int",
     "short_title": "string",
-    "long_title": "string"
+    "long_title": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/D_ICD_PROCEDURES.csv"
   },
   "CPTEVENTS": {
     "Unnamed: 0": "int",
@@ -385,6 +409,7 @@
     "ticket_id_seq": "int",
     "sectionheader": "string",
     "subsectionheader": "string",
-    "description": "string"
+    "description": "string",
+    "filepath": "../basic_filtered_data/mimic-iii-demo/CPTEVENTS.csv"
   }
 }
