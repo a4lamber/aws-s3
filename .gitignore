@@ -16,3 +16,35 @@ schema/*
 # ignoring .venv
 .venv/
 .DS_store
+
+
+
+
+
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files that are automatically generated for each Terraform run. Most
+# .tfvars files are managed as part of configuration and should be included in version control.
+# Ignore override files as they are usually used to override resources locally and so are not
+# checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+
+# Ignore CLI configuration files
+cli.tfrc
+cli.auto.tfrc
+
+# Ignore .terraform directories globally
+terraform.rc
