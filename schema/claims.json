@@ -1,0 +1,42 @@
+{
+  "properties": {
+    "procedure": {
+      "properties": {
+        "procedure_name": {"type": "string"},
+        "procedure_date": {"type": "date"},
+        "procedure_code": {"type": "string"},
+        "anesthesia": {"type": "string"}
+      },
+      "required": ["procedure_code"]
+    },
+    "medical_services": {
+      "properties": {
+        "service_name": {"type": "string"},
+        "service_date": {"type": "date"},
+        "service_code": {"type": "string"}
+      },
+      "required": ["service_code"]    
+    },
+    "payment": {
+      "properties": {
+        "insurance_provider": {"type": "string"},
+        "insruance_policy_number": {"type": "string"},
+        "charge": {"type": "float"},
+        "payment": {"type": "float"},
+        "charge_date": {"type": "date"},
+        "payment_date": {"type": "date"}
+      },
+      "required": []    
+    },
+    "demographic": {
+      "properties": {
+        "gender": {"type": "string"},
+        "date_of_birth": {"type": "string"},
+        "ethnicity": {"type": "string"},
+        "date_of_death": {"type": "date"}
+      },
+      "required": ["date_of_birth"]    
+    }
+  },
+  "required": []
+}

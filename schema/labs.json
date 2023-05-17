@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "test_name": {"type": "string"},
+    "test_date": {"type": "date"},
+    "test_result": {"type": "string"},
+    "test_type": {
+      "enum": [
+        "microbiology_test",
+        "pathology_test",
+        "urine_test",
+        "blood_test"
+      ]
+    }
+  },
+  "required": ["test_name"]
+}

@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "respiratory": {
+      "properties": {
+        "respiratory_rate": {"type": "string"},
+        "oxygen_saturation": {"type": "string"},
+        "respiratory_symptoms": {"type": "string"}
+      },
+      "required": []
+    },
+    "vital_sign": {
+      "properties": {
+        "blood_pressure": {"type": "string"},
+        "heart_rate": {"type": "string"},
+        "temperature": {"type": "string"},
+        "time_of_collection": {"type": "timestamp"},
+        "weight": {"type": "float", "unit": "kilograms"},
+        "height": {"type": "float", "unit": "meters"},
+        "bmi": {"type": "float"}
+      },
+      "required": []
+    },
+    "ecg": {
+      "properties": {
+        "heart_rate": {"type": "string"},
+        "rhythm": {"type": "string"},
+        "abnormalities": {"type": "string"}
+      },
+      "required": []
+    },
+    "neurological": {
+      "properties": {
+        "mental_status": {"type": "string"},
+        "motor_function": {"type": "string"},
+        "neurological_symptoms": {"type": "string"}
+      },
+      "required": []
+    }
+  },
+  "required": []
+}

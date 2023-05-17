@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "medical_history": {
+      "properties": {
+        "history_diagnosis": {"type": "string"},
+        "history_diagnosis_date": {"type": "date"},
+        "history_surgery": {"type": "string"},
+        "history_allergies": {"type": "string"},
+        "history_family": {"type": "string"}
+      },
+      "required": ["direct_diagnosis"]
+    },
+    "medications": {
+      "properties": {
+        "medication_name": {"type": "string"},
+        "dosage": {"type": "float", "unit": "mg"},
+        "route_of_administration": {"type": "string"},
+        "frequency": {"type": "string"},
+        "reason_for_medication": {"type": "string"},
+        "start_date": {"type": "date"},
+        "end_date": {"type": "date"}
+      },
+      "required": ["medication_name", "dosage"]
+    },
+    "diagnosis": {
+      "properties": {
+        "diagnosis_name": {"type": "string"},
+        "diagnosis_code": {"type": "string"},
+        "diagnosis_date": {"type": "date"},
+        "stage": {"type": "string"}
+      },
+      "required": ["diagnosis_code", "diagnosis_date"]
+    },
+    "demographic": {
+      "properties": {
+        "gender": {"type": "string"},
+        "date_of_birth": {"type": "string"},
+        "ethnicity": {"type": "string"},
+        "date_of_death": {"type": "date"}
+      },
+      "required": ["date_of_birth"]
+    }
+  },
+  "required": ["demographic"]
+}

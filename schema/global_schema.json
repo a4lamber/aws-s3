@@ -1,0 +1,8 @@
+{
+  "properties": {
+      "case_id": "str",
+      "sample_id": "str",
+      "aliquot_id": "str"
+  },
+  "required": ["case_id"]
+}
