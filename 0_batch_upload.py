@@ -20,19 +20,17 @@ def main(local_directory_name, bucket_name):
 
     # Set up credentials to the s3 buckets
     s3 = boto3.client('s3')
-
+ 
     # get a list of csv files
     csv_files = find_csvs(local_directory_name)
 
     # upload csv and csv.gz files up to the s3 bucket
     for csv_file in csv_files:
+        # local directory_path, bucket name, s3 path
         s3.upload_file(csv_file, bucket_name, csv_file)
 
 
 if __name__ == "__main__":
-    # # upload to "ehr-raw"
-    # main(local_directory_name="./rawdata/",
-    #      bucket_name='ehr-raw')
-    #
+    # upload to "ehr-raw" bucket filtered
     main(local_directory_name="./basic_filtered_data/",
          bucket_name='ehr-basic-filtered')
